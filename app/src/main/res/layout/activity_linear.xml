@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_linear.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFFFF">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 布局实验——线性布局"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"
+        android:gravity="start" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/one_one"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="One,One"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/one_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="One,Two"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/one_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="One,Three"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/one_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="One,Four"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/two_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Two,One"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/two_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Two,Two"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/two_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Two,Three"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/two_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Two,Four"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/three_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Three,One"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/three_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Three,Two"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/three_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Three,Three"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/three_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Three,Four"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/four_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Four,One"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/four_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Four,Two"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/four_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Four,Three"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/four_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/btn_box"
+                android:text="Four,Four"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
