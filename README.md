@@ -14,7 +14,7 @@ Android studio
 四、实验步骤
 （1）设计好主界面：
 主界面中包含四个实验的按钮，点击之后跳转到相应的实验界面：
-![应用主界面](screenshots/Mainactivityscreen shots.png)
+![Mainactivityscreen shots.png](screenshots/Mainactivityscreen%20shots.png)
 
 （2）相应的设计一个个实验
 线性：
